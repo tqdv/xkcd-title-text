@@ -4,7 +4,7 @@
 // @description    Adds the title text under the comic and a link to explainxkcd in navigation, it also works for what-if title texts. Adds links to comics for the signed prints in the store.
 // @include        /^https?:\/\/((www\.)?(what-if\.)?|store\.)xkcd.com\//
 // @grant          none
-// @version        1.6b
+// @version        1.0.3
 // @icon           https://raw.githubusercontent.com/tqdv/xkcd-title-text/master/bad_code_chair.png
 // @supportURL     https://github.com/tqdv/xkcd-title-text/
 // @license        GPL-3.0-or-later
