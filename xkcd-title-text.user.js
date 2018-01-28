@@ -1,23 +1,19 @@
 // ==UserScript==
-// @name           XKCD tooltip
-// @namespace      https://github.com/Lorentz83
-// @description    This script puts the xkcd tooltip under the picture and adds a link to explainxkcd.com. It does the same work with what-if tooltips. Finally, it adds links to the printed comics sold in the store.
-// @include        http*://xkcd.com/*
-// @include        http*://www.xkcd.com/*
-// @include        http*://what-if.xkcd.com/*
-// @include        http*://www.what-if.xkcd.com/*
-// @include        http*://store.xkcd.com/collections/everything/products/signed-prints
+// @name           xkcd title text
+// @namespace      http://kawa.ga/
+// @description    Adds the title text under the comic and a link to explainxkcd in navigation, it also works for what-if title texts. Adds links to comics for the signed prints in the store.
+// @include        /^https?:\/\/((www\.)?(what-if\.)?|store\.)xkcd.com\//
 // @grant          none
-// @version        1.6a
-// @icon           https://raw.githubusercontent.com/Lorentz83/userscripts/master/XKCDTooltip/icon.png
-// @supportURL     https://github.com/Lorentz83/userscripts
-// @license        GPLv2; http://www.gnu.org/licenses/
+// @version        1.6b
+// @icon           https://raw.githubusercontent.com/tqdv/xkcd-title-text/master/bad_code_chair.png
+// @supportURL     https://github.com/tqdv/xkcd-title-text/
+// @license        GPL-3.0-or-later
 // ==/UserScript==
 
 /**
  *  This program is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
- *  the Free Software Foundation, either version 2 of the License, or
+ *  the Free Software Foundation, either version 3 of the License, or
  *  (at your option) any later version.
  *
  *  This program is distributed in the hope that it will be useful,
